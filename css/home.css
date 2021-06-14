@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'd8591cd4-a1ca-27a2-c5c0-303664d39922';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/d8591cd4-a1ca-27a2-c5c0-303664d39922.ttf);
+}
+
+* {
+	text-align: center;
+	flex-wrap: nowrap;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	width: 100%;
+    left: 0;
+    height: 100%;
+}
+
+.u-section-1, .u-section-2, .u-section-3, .u-sheet-1 {
+	min-height: 100vh;
+}
+
+.u-section-1 .u-text-1, .u-section-3 .u-text-1 {
+	font-size: 3.75rem;
+	font-weight: normal;
+	margin: 400px 0 0 0;
+	font-family: d8591cd4-a1ca-27a2-c5c0-303664d39922;
+}
+
+.u-section-2 .u-text-1 {
+	font-size: 3.75rem;
+	font-weight: normal;
+	margin: 300px 0 0 0;
+	font-family: d8591cd4-a1ca-27a2-c5c0-303664d39922;
+
+}
+
+.u-section-1 {
+	top: 0;
+	background: url("https://imgs.lovpass.cn/img/2020/07/07/558b5f863ac5920200707.png") no-repeat center center;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.u-section-2 {
+	top: 100%;
+	background: url("https://imgs.lovpass.cn/img/2020/03/05/f517dbd80467420200305.png") no-repeat center center;
+	background-position: 50% 50%;
+	color: #fff;
+	background-size: cover;
+}
+
+.u-section-3 {
+	top: 200%;
+	background: #000 no-repeat center center;
+	background-position: 50% 50%;
+	color: #fff;
+	background-size: cover;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: #000;
+	margin-top: -20px;
+}
+
+.footer-text {
+	font-size: 17px;
+	color: #fff;
+}
+
+.bar {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    overflow: hidden;
+}
+
+.frosted-glass {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: inherit;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-ms-filter: blur(5px);
+	-o-filter: blur(5px);
+	filter: blur(5px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+}
